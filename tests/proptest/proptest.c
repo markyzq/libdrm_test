@@ -310,7 +310,7 @@ static void printUsage(void)
 
 int main(int argc, char *argv[])
 {
-	char *modules[] = { "i915", "radeon", "nouveau", "vmwgfx", "omapdrm", "msm" };
+	char *modules[] = { "i915", "radeon", "nouveau", "vmwgfx", "omapdrm", "msm", "rockchip"};
 	unsigned int i, ret = 0;
 
 	for (i = 0; i < ARRAY_SIZE(modules); i++){
